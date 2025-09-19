@@ -18,8 +18,8 @@ React, Axios
 bcryptjs, uuid, dotenv, cors, nodemon
 
 ## Deployments
->RENDER  (BACKEND)
->VERCEL  (FRONTEND)
+>RENDER  (BACKEND),
+>VERCEL  (FRONTEND),
 >RAILWAY (SQL DATABASE)
 
 ---
