@@ -26,9 +26,19 @@ app.use('/api/users', userRoutes);
 app.get('/', (req, res) => res.send('Banking backend running'));
 
 // sync and start
-sequelize.sync({ alter: true })
-  .then(() => console.log('Database & tables ready'))
-  .catch(err => console.error('DB sync error:', err));
+// sequelize.sync({ alter: true })
+//   .then(() => console.log('Database & tables ready'))
+//   .catch(err => console.error('DB sync error:', err));
+
+(async () => {
+  try {
+    await sequelize.sync();
+    console.log("✅ Database synced successfully.");
+    app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+  } catch (error) {
+    console.error("❌ DB sync error:", error);
+  }
+})();
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
