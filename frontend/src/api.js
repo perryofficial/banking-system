@@ -1,7 +1,7 @@
 // src/api.js
 import axios from 'axios';
 
-const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:5000';
+const API_BASE = 'https://banking-system-5-varibles-changes.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE + '/api',
