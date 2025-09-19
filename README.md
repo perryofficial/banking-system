@@ -5,14 +5,22 @@ Implements token-based authentication, customer and banker roles, and basic tran
 
 ---
 ## 🔗 Live Links
+
 Backend API: https://banking-system-5-varibles-changes.onrender.com
+
 Frontend: https://banking-system-project-endpointe.vercel.app/
+
 ---
 
 ## 🚀 Tech Stack
-Node, Express, Sequelize, MySQL2  
+Node, Express, Sequelize, MySQL
 React, Axios  
 bcryptjs, uuid, dotenv, cors, nodemon
+
+## Deployments
+>RENDER  (BACKEND)
+>VERCEL  (FRONTEND)
+>RAILWAY (SQL DATABASE)
 
 ---
 
