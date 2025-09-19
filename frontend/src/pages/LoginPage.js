@@ -58,7 +58,7 @@ export default function LoginPage({ onLogin }) {
         }}
       >
         <h2 style={{ marginBottom: '6px', fontSize: '1.8rem', fontWeight: '600' }}>
-          Welcome Back
+          Banking System
         </h2>
         <p style={{ marginBottom: 24, fontSize: '0.9rem', color: '#6b7280' }}>
           Login or create a new account
